@@ -1,0 +1,19 @@
+.block1{
+    width:300px;
+    border: 1px solid gray;
+    background-color: aquamarine;
+    text-align:center;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: Lato;
+  }
+
+.class-odd{
+    color: green;
+}
+
+.class-even{
+    color: red;
+}

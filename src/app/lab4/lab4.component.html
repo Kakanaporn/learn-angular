@@ -1,0 +1,17 @@
+<div class='block1'>
+    <p>    Start Odd-Even number :) </p>
+
+    <ng-container *ngFor="let i of numbs">
+        <ng-container *ngIf="i % 2 === 0 ">
+            <p ngClass="{{'class-odd'}}">
+                {{oddNum}}{{i}}
+            </p>
+        </ng-container>
+        <ng-container *ngIf="i % 2 !== 0 ">
+            <p ngClass="{{'class-even'}}">
+                {{oddNum}}{{i}}
+            </p>
+        </ng-container>
+    </ng-container>
+</div>
+
