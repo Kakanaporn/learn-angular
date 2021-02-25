@@ -1,0 +1,8 @@
+.container {
+    width: max-content;
+    position: relative;
+    background-color: #F88F58;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
