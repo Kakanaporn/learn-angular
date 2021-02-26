@@ -10,6 +10,8 @@ import { NavbarComponent } from './home/navbar/navbar.component';
 import { SearchBarComponent } from './home/navbar/search-bar/search-bar.component';
 import { TopBannerComponent } from './home/top-banner/top-banner.component';
 import { CategoryMenuComponent } from './home/category-menu/category-menu.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
+
 
 
 @NgModule({
@@ -22,6 +24,7 @@ import { CategoryMenuComponent } from './home/category-menu/category-menu.compon
     SearchBarComponent,
     TopBannerComponent,
     CategoryMenuComponent,
+    ToDoListComponent,
 
   ],
   imports: [
